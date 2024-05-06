@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/expense_details?useSSL=false&allowPublicKeyRetrieval=true"
+    username: root
+    password: Pratik
+
+#JPA settings
+spring.jpa.hibernate.ddl-auto: create
